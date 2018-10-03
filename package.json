@@ -1,0 +1,13 @@
+{
+  "name": "act365l",
+  "version": "0.1.0",
+  "repo": "hcnn/act365l",
+  "description": "Date difference in years according to the Actual/365L daycount method",
+  "keywords": ["daycount", "date difference", "year fraction", "Actual/365L", "Actual/Actual Basic Rule", "ISMA-Year"],
+  "license": "MIT",
+  "src": ["act365l.c", "act365l.h"],
+  "dependencies": {
+    "hcnn/isaleapyear": "0.1.0",
+    "hcnn/julianday": "0.1.0"
+  }
+}
